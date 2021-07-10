@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>tams_icon_black_x32.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Trais McAllister;</Authors>
+    <Company>True Analytics Manufacturing Solutions</Company>
+    <Product />
+    <Description>Extensions to EntityFramework that ease the implementation of a complex data model in EntityFrameworkCore.</Description>
+    <Copyright>True Analytics Manufacturing Solutions, LLC</Copyright>
+    <PackageIcon>TAMS-Icon-Blue_x256.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Initial publish</PackageReleaseNotes>
+    <PackageTags>EntityFrameworkCore;TAMS;</PackageTags>
+    <RepositoryUrl>https://github.com/TrueAnalyticsSolutions/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/TrueAnalyticsSolutions/</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\LightWorks\Source\Repos\EntityFrameworkCore.Extensions.TAMS\EntityFrameworkCore.Extensions.TAMS\EntityFrameworkCore.Extensions.TAMS.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TAMS-Icon-Blue_x256.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
