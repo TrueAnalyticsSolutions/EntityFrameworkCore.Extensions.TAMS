@@ -1,6 +1,6 @@
 name: Publish to Package Registries
 env:
-  projectPath: 'EntityFrameworkCore.Extensions.TAMS\EntityFrameworkCore.Extensions.TAMS.csproj'
+  projectPath: 'EntityFrameworkCore.Extensions.TAMS.csproj'
 
 on: 
   push:
